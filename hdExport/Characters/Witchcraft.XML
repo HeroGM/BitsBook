@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<character>
+	<name><![CDATA[Witchcraft]]></name>
+	<aliases><![CDATA[Bethany Duquesne]]></aliases>
+	<playerName><![CDATA[NPC]]></playerName>
+	<appearance>
+		<hairColor><![CDATA[Brown]]></hairColor>
+		<eyeColor><![CDATA[Brown]]></eyeColor>
+		<height><![CDATA[2.01 m : 6' 7"]]></height>
+		<weight><![CDATA[99.79 kg : 220 lbs]]></weight>
+	</appearance>
+	<portrait></portrait>
+	<description><![CDATA[]]></description>
+	<background><![CDATA[]]></background>
+	<personality><![CDATA[]]></personality>
+	<quote><![CDATA[]]></quote>
+	<tactics><![CDATA[]]></tactics>
+	<campaignUse><![CDATA[]]></campaignUse>
+	<experience>
+		<total>400</total>
+		<earned>0</earned>
+		<spent>0</spent>
+		<unspent>0</unspent>
+	</experience>
+	<characteristics>
+		<characteristic>
+			<name>strength</name>
+			<total>10</total>
+			<cost>0</cost>
+			<roll>11-</roll>
+			<notes>HTH Damage 2d6  END [1]</notes>
+		</characteristic> 
+		<characteristic>
+			<name>dexterity</name>
+			<total>18</total>
+			<cost>16</cost>
+			<roll>13-</roll>
+			<notes></notes>
+		</characteristic> 
+		<characteristic>
+			<name>constitution</name>
+			<total>18</total>
+			<cost>8</cost>
+			<roll>13-</roll>
+			<notes></notes>
+		</characteristic>
+		<characteristic>
+			<name>body</name>
+			<total>10</total>
+			<cost>0</cost>
+			<roll></roll>
+			<notes></notes>
+		</characteristic>
+		<characteristic>
+			<name>intelligence</name>
+			<total>18</total>
+			<cost>8</cost>
+			<roll>13-</roll>
+			<notes>PER Roll 13-</notes>
+		</characteristic>
+		<characteristic>
+			<name>ego</name>
+			<total>23</total>
+			<cost>13</cost>
+			<roll>14-</roll>
+			<notes></notes>
+		</characteristic>
+		<characteristic>
+			<name>presence</name>
+			<total>20</total>
+			<cost>10</cost>
+			<roll>13-</roll>
+			<notes>PRE Attack: 4d6</notes>
+		</characteristic> 
+		<characteristic>
+			<name>comeliness</name>
+			<total></total>
+			<cost></cost>
+			<roll></roll>
+			<notes></notes>
+		</characteristic>
+		<characteristic>
+			<name>ocv</name>
+			<total>6</total>
+			<cost>15</cost>
+			<roll />
+			<notes />
+		</characteristic>
+		<characteristic>
+			<name>dcv</name>
+			<total>7</total>
+			<cost>20</cost>
+			<roll />
+			<notes />
+		</characteristic>
+		<characteristic>
+			<name>omcv</name>
+			<total>8</total>
+			<cost>15</cost>
+			<roll />
+			<notes />
+		</characteristic>
+		<characteristic>
+			<name>dmcv</name>
+			<total>8</total>
+			<cost>15</cost>
+			<roll />
+			<notes />
+		</characteristic>
+		<characteristic>
+			<name>pd</name>
+			<total>4/14</total>
+			<cost>2</cost>
+			<roll />
+			<notes>4/14 PD (0/10 rPD)</notes>
+		</characteristic>
+		<characteristic>
+			<name>ed</name>
+			<total>6/16</total>
+			<cost>4</cost>
+			<roll />
+			<notes>6/16 ED (0/10 rED)</notes>
+		</characteristic>
+		<characteristic>
+			<name>speed</name>
+			<total>5</total>
+			<cost>30</cost>
+			<roll />
+			<notes>Phases:  3, 5, 8, 10, 12</notes>
+		</characteristic>
+		<characteristic>
+			<name>recovery</name>
+			<total>8</total>
+			<cost>4</cost>
+			<roll />,
+			<notes></notes>
+		</characteristic>
+		<characteristic>
+			<name>endurance</name>
+			<total>35</total>
+			<cost>3</cost>
+			<roll />
+			<notes></notes>
+		</characteristic> 
+		<characteristic>
+			<name>stun</name>
+			<total>30</total>
+			<cost>5</cost>
+			<roll />
+			<notes></notes>
+		</characteristic>
+		<cost>168</cost>
+	</characteristics>
+	<movement>
+		<running>42m[84m NC]</running>
+		<swimming>4m[8m NC]</swimming>
+		<leaping>
+			<horizontal>4m</horizontal>
+			<vertical>2m</vertical>
+		</leaping>
+		<flight></flight>
+		<gliding></gliding>
+		<swinging></swinging>
+		<teleportation></teleportation>
+		<tunneling></tunneling>
+	</movement>
+	<skills>
+		<text><![CDATA[(10)+2 with Greater Witcheries Multipower|() |(1)High Society 8-|(3)KS: Arcane And Occult Lore 13-|(2)KS: Demonology 11-|(3)KS: Witchcraft 13-|(1)CK: Vibora Bay 8-|(1)Language:  French (basic conversation)|(1)Language:  Latin (basic conversation)|(3)Stealth 13-|(3)Teamwork 13-|]]></text>
+		<cost>28</cost>
+	</skills>
+	<perks>
+		<text><![CDATA[(6)Contact:  The Trismegistus Council, Organization Contact (x3) (6 Active Points) 11-|]]></text>
+		<cost>6</cost>
+	</perks>
+	<talents>
+		<text><![CDATA[(3)+1/+1d6 Striking Appearance (vs. all characters)|]]></text>
+		<cost>3</cost>
+	</talents>
+	<powers>
+		<text><![CDATA[(60)Greater Witcheries:Multipower, 60-point reserveNotes: Choose 9 slots, delete the rest|(6f)1)  Witchfire:Blast 9d6, Reduced Endurance (1/2 END; +1/4) (56 Active Points)|(6f)2)  Fascination:Mind Control 9d6, Reduced Endurance (1/2 END; +1/4) (56 Active Points)|(6f)3)  Glamour:Mental Illusions 9d6, Reduced Endurance (1/2 END; +1/4) (56 Active Points)|(6f)4)  Irresistible Slumber:Mental Blast 6d6 (60 Active Points)|(6f)5)  Terrors Of The Dark:Drain PRE 6d6 (60 Active Points)|(4f)6)  Man Into Frog Spell:Severe Transform 4d6 (human being into frog, heals back if target is kissed by royalty of the opposite gender or Witchcraft voluntarily “dispels” the magic) (60 Active Points); Limited Target (humans; -1/2)|(30)Shield Of Sorcery:Resistant Protection (10 PD/10 ED)|(30)Wings Of The Zephirim:Running +30m (42m total)|(38)Lesser Witcheries:Variable Power Pool, 30 base + 30 control cost,  (45 Active Points); Can Only Be Changed With Access To Spellbooks (-1/2), Only Magic (-1/4)|(0)1) Athame:(Total: 30 Active Cost, 12 Real Cost) Killing Attack - Hand-To-Hand 1d6 (1 1/2d6 w/STR) (15 Active Points); OAF (-1), No Knockback (-1/4) (Real Cost: 7)Killing Attack - Hand-To-Hand 1d6 (1 1/2d6 w/STR) (15 Active Points); OAF (-1), Only Versus Evil Mystic Beings (-1), No Knockback (-1/4) (Real Cost: 5) Real Cost: 12|(0)2) Awareness:Danger Sense (immediate vicinity, any danger) (30 Active Points) 13- Real Cost: 30|(0)3) Beast Shape:Multiform (one animal form) (150 Character Points in the most expensive form) (30 Active Points) Real Cost: 30|(0)4) Seeming:Shape Shift  ( and Hearing Groups, any humanoid form), Imitation (28 Active Points) Real Cost: 28|(0)5) Spell Of Vitality:(Total: 18 Active Cost, 18 Real Cost) +40 END (Real Cost: 8)+10 REC (Real Cost: 10) Real Cost: 18|(0)6) Voice Of The Mind:Mind Link , Any Willing Target, Number of Minds (x8) (30 Active Points) Real Cost: 30|(3)Magesense:Detect Magic 13- (no Sense Group) (5 Active Points); Concentration (0 DCV; -1/2)|]]></text>
+		<cost>195</cost>
+	</powers>
+	<equipment>
+		<text><![CDATA[]]></text>
+		<cost>0</cost>
+	</equipment>
+	<martialArts>
+		<text><![CDATA[]]></text>
+		<cost>0</cost>
+	</martialArts>
+	<disadvantages>
+		<text><![CDATA[(20)Hunted:  Circle Of The Scarlet Moon Infrequently (Mo Pow; NCI; Capture/Corrupt)|(10)Hunted:  Talisman Infrequently (As Pow; Kill)|(20)Psychological Complication:  Code Versus Killing (Common; Total)|(15)Social Complication:  Secret Identity (Bethany Duquesne) Frequently, Major|(5)Vulnerability:  1 1/2 x STUN from Ice/Cold (Uncommon)|(5)Vulnerability:  1 1/2 x BODY from Ice/Cold (Uncommon)|]]></text>
+		<cost>75</cost>
+	</disadvantages>
+</character>
