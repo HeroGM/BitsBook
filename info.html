@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="info_css.css">
+    <title>Information HTML file</title>
+</head>
+
+<body>
+    <header>
+        <h1>HeroBits by Design</h1>
+        <p>A Helper for Hero Designer by Hero Games</p>
+    </header>
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>Hero Designer is a program created by Dan Simon for the Hero System RPG by Hero Games. It was first
+                created for 5th Edition in 2002 and was later update for 6th Edition in 2009. The program allows you to
+                enter in characters, vechicles, etc for the game and export them into a text format to be printed out
+                and used. Export files are created using custom XML comment tags [i.e. &lt;!-- --&gt;]. This allows the
+                program to export it's information into different formats. </p>
+            <aside>
+                Hero Designer used to be able to export into a PDF file straight from the program. Due to changes in
+                JAVA as well as a lack of support by the original creater it was taken out.
+            </aside>
+            <p>If you have not read the Hero Designer Documentation I suggest you do before starting anything here.
+                Although the language is pretty a basic understanding of the program is always helpful and reading the
+                documentation can go a long way into answering some questions that you may already have. This site is
+                mainly to help give a deeper understanding of Export Tags inside the program, it's not currently to
+                answer deeper questions such as JAVA. You are welcome to contact me if you need any help. </p>
+            <aside>
+                <p><strong><em>IMPORTANT: </em></strong> Please note that I am creating my files in Microsoft VSCode and using Firefox (v94) as a browswer, on a Windows 10 system. While I do know some things about MacOS I do not currently own it and have not played with it in over a decade. Browswer support may differ depnding on what HTML or other language you're using. </p>
+            </aside>
+        </section>
+        <aside>
+            <p>Hero Designer is a .jre file that is run by the Java Runtime Enviroment. As noted in the Manual you need to have Java loaded before you may run the program. I highly suggest getting the 8.x version if possible since that's what it was written under and it has some of the highest support.</p>
+            <p>Updating Hero Designer is as easy as going to Hero Games website, going to 'Manage Purchaces' inside the store and downloading the .zip file. Unzip it into your HD directory (overwriting the older files) and start up the program. </p>
+            <h3>Usage</h3>
+            <p><strong>Note: </strong> Since HD is run in a JAVA enviroment you can run it on any machince that has the JRE installed. At times I've loaded the program and my files onto a 16GB USB drive and managed to run it on mutliple computers. If you are a DM you may want to think about this option and </p>
+            <h3>Folders</h3>
+            <p>If you are not careful at some time you'll have files all over the place <em>or</em> inside one folder and unable to sort through anything. It doesn't matter if I have HD on my hard-drive or on USB I tend to keep some of it organized into different sections. Everything below is merely how I do it. Everyone else is different.</p>
+            <code>
+                <pre>
+                    HERODesinger -
+                                 - Characters - [Original Characters and Campaigns]
+                                              - Homebrew
+                                              - Pulp Hero 
+                                              - Fantasy Hero 
+                                              - Golden Age 
+                                              - Mystara Hero
+                                 - Core [Main Program]
+                                 - Exports [Collection of .hde files]
+                                 - Packages - [Files brought at Hero Games Store]
+                                            - HS Martial Arts 6E
+                                            - Fantasy Hero 6E
+                                            - Western Hero 6E
+                                            - Dark Champions 5E
+                                            - Dark Champions 6E
+
+                </pre>
+            </code>
+        </aside>
+        <section>
+            <h2>Export TAGs</h2>
+            <h3>Required Tags</h3>
+            <p>In order for HD to read your Export Template you need some bits of information for the program to recognize. </p>
+            <ol>
+                <li><code>&lt;!--TEMPLATE_NAME--&gt;</code>: What you want to call the template inside Hero Designer. Should be unique and say what type of file it's exporting (character, vehicle, base, etc). When you load the file the actual filename will be next to it. </li>
+                <li><code>&lt!--TEMPLATE_DESCRIPTION--&gt;</code>: Description of the Export file. You should put any type of notes on special uses for the file. For example you may need to have a Notes tab activated or the fact that it will export information in a certain way. </li>
+                <li><code>&lt;!--FILE_EXTENSION--&gt;</code>: The extension of exported file. If you don't have this HD will "break" a little bit, leaving the file name blank instead of autofilling it. HD will automatically want to write it in all caps (so it'd be .HTML or .RTF).  </li>
+            </ol>
+            <p>Those three are needed at minumin in order to get the export files to work. </p>
+            <figure>
+                <img src="img/list_two_example.JPG" alt="Example list">
+                <figcaption>Figure 1.1</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Tags</h2>
+            <h3>Tag Layout</h3>
+            <p>As mentioned earlier HD tags are XML comment tags. They come in two main types, singular and closing. Singular tags are inputed by themselves and simply replace the content. &lt!--APP_VERSION--&gt; is a singular export tag. Wherever it appears it'll replace the tag with the current version of Hero Designer. </p>
+        </section>
+    </main>
+    <footer>
+        &copy; Daniel Kendrick aka <a href="mailto:herogm02@gmail.com">HeroGM</a>
+    </footer>
+</body>
+
+</html>

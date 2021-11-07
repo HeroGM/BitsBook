@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Grid Page</title>
+    <style>
+        *, *::before, *::after {
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body {
+            display: grid;
+            grid-template-columns: 1rem 1fr 1rem;
+            grid-template-rows: 100px 1fr 100px;
+            grid-template-areas: 
+            ". header ."
+            ". content ."
+            ". footer .";
+            color: #102372; /* TARDIS Blue*/
+        }
+        header {
+            grid-area: header;
+
+        }
+        footer {
+            grid-area: footer;
+
+        }
+        main {
+            padding:0.25em;
+            gap:1rem;
+            grid-area: content;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-template-rows: repeat(3, fit-content);
+        }
+        section {
+            display: grid;
+            grid-template-columns: subgrid;
+            grid-template-rows: subgrid;
+            grid-column: auto;
+            grid-row: 1 / 4;
+            padding:1em;
+            box-shadow: 5px 5px 0px rgba(16, 35, 114, 0.25);
+        }
+        section h3 {
+            height:fit-content;
+        }
+        section button {
+            height: fit-content;
+        }
+        section div {
+            height:100%;
+        }
+        img {
+            max-width:100%;
+        }
+        ul {
+            list-style-type:none;
+        }
+        a {
+            text-decoration: none;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        h1 {
+            margin-right:auto;
+        }
+        a {
+            padding: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sample Web Site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Exports</a>
+            <a href="#">Characters</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h3>Section One</h3>
+            <div>
+            <img src="img/DarkPaladin.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sit autem consequatur non neque adipisci distinctio consequuntur quisquam nam modi harum, tempore repellat possimus labore quas nesciunt provident ipsam laborum.</p>
+            </div>
+            <button>Click Me!</button>
+        </section>
+        <section>
+            <h3>Section Two</h3>
+            <div>
+            <img src="img/isshiki_tane_.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptate pariatur, corporis necessitatibus laudantium, non fugit vero debitis delectus consequuntur obcaecati cum cupiditate dolore illo dolorem architecto rem totam praesentium dolorum fugiat voluptatibus laboriosam quis minus. Pariatur illo modi culpa.</p>
+            </div>
+            <button>More Info.</button>
+        </section>
+        <section>
+            <h3>Section Three</h3>
+            <div>
+            <img src="img/lash.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis suscipit ratione consequuntur officia id, quod voluptas excepturi modi accusamus laboriosam quia aliquid, pariatur numquam eius cum omnis in amet veniam.</p>
+            </div>
+            <button>Call to Action</button>
+        </section>
+    </main>
+    <footer>
+        <p>This is my footer. Doesn't it look nice?</p>
+    </footer>
+</body>
+</html>

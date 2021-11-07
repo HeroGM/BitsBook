@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+   /* margin:0;
+    (padding:0; */
+    box-sizing: border-box;
+}
+:root {
+    --prime-clr: white;
+    --sec-clr: lightgray;
+    --background-clr: black; 
+}
+
+
+body {
+display: grid;
+grid-template-columns: 1rem 1fr 1rem;
+grid-template-rows:auto;
+font-family:'Budrick BB', 'DecoFex BB';
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'DecoFex BB';
+    color:blue;
+    font-variant: small-caps;
+}
+
+main {
+    grid-column: 2;
+}
+
+header, footer {
+    grid-column: span 2;
+    padding:0.5rem;
+}
+ol,ul {
+    list-style-type:none;
+    margin-left:1rem;
+}
+
+article header > img {
+    max-width:75px;
+    float:left;
+    margin-right:1rem;
+}
+
+figure {
+    margin:0;
+    padding:0;
+    width:clamp(150px, 400px, 600px);
+    box-shadow:5px 10px 0px rgba(0,0,0,0.5);
+}
+figure > img {
+    max-width:100%;
+/* max-width:75%;
+  margin:auto; */
+}
+
+figcaption {
+    border-top:1px inset rgba(0,0,0,0.5);
+    text-align:right;
+    padding-right:0.5rem;
+}
+
+aside {
+    background: brown;
+    font-weight:700;
+    padding: 0.25rem;
+}
+
+table, th, td {
+    border:1px solid rgba(0,0,0,0.5);
+    border-collapse: collapse;
+    text-align: middle;
+    vertical-align: top;
+}
+td:first-child {
+    text-align: right;
+}
+td:last-child {
+    vertical-align: bottom;
+    text-align: right;
+}
+th,td {
+    padding:0.25rem;
+}
+table {
+    box-shadow: 5px 10px 0px rgba(0,0,0,0.5);
+
+}

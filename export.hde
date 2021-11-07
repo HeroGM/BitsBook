@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hero Designer v<!--APP_VERSION-->">
+    <meta name="exportDate" content="<!--EXPORT_ID-->">
+    <link rel="stylesheet" href="info_css.css">
+    <title><!--CAMPAIGN_NAME-->: <!--CHARACTER_NAME--></title>
+</head>
+<body>
+    <header>
+        <h1>HeroBits</h1>
+        <p></p>
+    </header>
+    <main>
+        <article>
+            <header>
+                <img src="img/heroMan_01.png" alt="Hero Games Logo">
+                <h2><!--CHARACTER_NAME--> <small>aka <!--ALTERNATE_IDS--></small></h2>
+                <p>Example Character Sheet</p>
+            </header>
+            <section>
+                <h3>Character Information</h3>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Output</th>
+                        <th>Tag</th>
+                    </tr>
+                    <tr>
+                        <td>Hair Color</td>
+                        <td><!--HAIR_COLOR--></td>
+                        <td>&lt;!--HAIR_COLOR--&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>Eye Color</td>
+                        <td><!--EYE_COLOR--></td>
+                        <td>&lt;!--EYE_COLOR--&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>Height</td>
+                        <td><!--HEIGHT--></td>
+                        <td>&lt;!--HEIGHT--&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>Weight</td>
+                        <td><!--WEIGHT--></td>
+                        <td>&lt;!--WEIGHT--&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>Height (Metric)</td>
+                        <td><!--HEIGHT_METRIC--></td>
+                        <td>&lt;!--HEIGHT_METRIC--&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>Weight (Metric)</td>
+                        <td><!--WEIGHT_METRIC--></td>
+                        <td>&lt;!--WEIGHT_METRIC--&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>Height (English)</td>
+                        <td><!--HEIGHT_ENGLISH--></td>
+                        <td>&lt;!--HEIGHT_ENGLISH--&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>Weight (English)</td>
+                        <td><!--WEIGHT_ENGLISH--></td>
+                        <td>&lt;!--WEIGHT_ENGLISH--&gt;</td>
+                    </tr>
+                </table>
+            </section>
+            <!--IF_IMAGE-->
+            <section>
+                <h3>Character Image</h3>
+                <figure>
+                    <img src="<!--IMAGE_RELATIVE_URL-->" alt="Image">
+                    <figcaption><!--CHARACTER_NAME--></figcaption>
+                </figure>
+            </section>
+            <!--/IF_IMAGE-->
+            <!--IFPOWERS-->
+            <section>
+                <h3>Powers</h3>
+                <table>
+                    <tr>
+                        <th>Cost</th>
+                        <th>Powers</th>
+                        <th>END</th>
+                    </tr>
+                    <!--POWERS-->
+                    <tr>
+                        <td><!--POWER_COST--></td>
+                        <td><!--IFNAME--><em><!--NAME-->:</em> <!--/IFNAME--><!--POWER_TEXT--></td>
+                        <td><!--POWER_END--></td>
+                    </tr>
+                    <!--/POWERS-->
+                </table>
+            </section>
+            <!--IFPOWERS-->
+            <footer>
+                <p>&copy; <!--PLAYER_NAME--></p>
+            </footer>
+        </article>
+    </main>
+    <footer>
+        &copy; Daniel Kendrick for <a href="http://herobits.info">HeroBits</a> web-book.
+    </footer>
+</body>
+<!--TEMPLATE_NAME-->Example Template for 20211206<!--/TEMPLATE_NAME-->
+<!--TEMPLATE_DESCRIPTION-->Template using Hero Designer tags for HeroBits<!--/TEMPLATE_DESCRIPTION-->
+<!--FILE_EXTENSION-->HTML<!--/FILE_EXTENSION-->
+    <!--REPLACE-->
+    <!--DEFSTRING-->1/4<!--/DEFSTRING-->
+    <!--REPSTRING-->&frac14<!--/REPSTRING-->
+    <!--/REPLACE-->
+    <!--REPLACE-->
+    <!--DEFSTRING-->1/2<!--/DEFSTRING-->
+    <!--REPSTRING-->&frac12;<!--/REPSTRING-->
+    <!--/REPLACE-->
+    <!--REPLACE-->
+    <!--DEFSTRING-->3/4<!--/DEFSTRING-->
+    <!--REPSTRING-->&frac34;<!--/REPSTRING-->
+    <!--/REPLACE-->
+</html>
